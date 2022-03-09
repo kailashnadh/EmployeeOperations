@@ -13,9 +13,6 @@ public class EmployeeOperations {
         employeeList = sortEmployee(employeeList);
         Employee employee6 = new Employee(2, "Sawan", 2, EmployeeAssetBrand.DELL);
         addEmployee(employeeList,employee6);
-        Employee employee7 = new Employee(7, "Sawan", 2, EmployeeAssetBrand.DELL);
-        addEmployee(employeeList, employee7);
-        printEmployee(employeeList);
         Map<Integer, Employee> employeeMap = new HashMap();
         for (Employee e: employeeList) {
             employeeMap.put(e.getEmployeeId(),e);
